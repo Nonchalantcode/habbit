@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome ext",
+  "version": "1.0",
+  "description": "Extension for my browsing needs",
+  "content_scripts": [
+    {
+      "matches": ["*://*.techiedelight.com/*"],
+      "js": ["techiedelight.bundle.js"]
+    }
+  ]
+}
